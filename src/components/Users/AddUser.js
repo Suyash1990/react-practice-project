@@ -46,6 +46,8 @@ const AddUser = (props) => {
 
     // setName("");
     // setAge("");
+    nameInputRef.current.value = '';
+    ageInputRef.current.value = '';
   };
 
   const errorHandler = () => {
